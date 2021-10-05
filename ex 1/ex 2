@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exercici 2</title>
+</head>
+<body>
+
+<style>
+table {
+    width:100%;
+ }
+
+td {
+    text-align:center;
+    background-color:#FF1515;
+    border-radius: 50px;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fe7e7b;
+    
+    
+}
+
+.card {
+	text-align: center;
+	background-color: #b8c0e7;
+	border-radius: 15px;
+	margin: 1rem 1rem 1rem 1rem;
+	padding-bottom: 1rem;
+
+li {
+    float: left;
+}
+
+li a {
+     display: block;
+     color: white;
+     text-align: center;
+     
+     padding-top: 14px;
+     padding-right: 16px;
+     padding-bottom: 14px;
+     padding-left: 16px;
+     
+     text-decoration: none;
+}
+
+li a:hover {
+    background-color: #FD5959;
+}
+@keyframes pokemon-up {
+
+ 0%
+ 100% {
+ transform: translateY(0);
+ }
+ 
+ 50% {
+ transform: translateY(-.4rem);
+ }
+ }
+td:hover {
+    background-color: #ff9898;
+    animation: pokemon-up .3s;
+    cursor: pointer;
+}    
+.agua {
+    background-color: #2fabf9;
+
+}
+
+.fuego{
+    background-color: #f9792f;
+}
+
+.planta {
+
+}
+
+.bicho {
+
+}
+
+.veneno{
+
+}
+
+.psiquico {
+
+}
+
+.pokemon-type {
+    width: 25%;
+}
+
+.pokemon-name {
+    font-size: 1.5rem;
+    font-weight: normal;
+    
+
+</style>
+
+<ul>
+    <li><a href="">Home</a></li>
+    <li><a href="">Pokedex 1</a></li>
+    <li><a href="">Pokedex 2</a></li>
+    <li><a href="">Pokedex 3</a></li>
+</ul>
+
+
+
+
+ <div id="container"> 
+	 <div class="card">
+		<img src="../img/abra.png" />
+		<div class="pokemon-description">
+       		 <h3 class="pokemon-name">abra</h3>
+        		<div>
+           	 		<div class="pokemon-type fuego">fuego</div>
+            			<div class="pokemon-type agua">agua</div>
+            		</div>
+            	</div>
+        </div>
+ <div id="container"> 
+	<div class="card"> 
+	<td><img src="../img/golem.png" />
+		<div class="pokemon-description">
+        		<h3 class="pokemon-name">golem</h3>
+        <div>
+            			<div class="pokemon-type fuego">fuego</div>
+        </div>
+            			<div class="pokemon-type agua">agua</div>
+        </td>    
+<div class="card">
+	<td><img src="../img/horsea.png" />
+        	<div class="pokemon-description">
+        		<h3 class="pokemon-name">horse</h3>
+        <div>
+            			<div class="pokemon-type fuego">fuego</div>
+        </div>
+            			<div class="pokemon-type agua">agua</div>
+        </td>    
+    </tr>
+    <tr>
+<div class="card">
+        <td><img src="../img/kabuto.png" />
+        	<div class="pokemon-description">
+       		 <h3 class="pokemon-name">kabuto</h3>
+        <div>
+            			<div class="pokemon-type fuego">fuego</div>
+        </div>
+            			<div class="pokemon-type agua">agua</div>
+        </td>    
+<div class="card">
+        <td><img src="../img/kakuna.png" />
+        	<div class="pokemon-description">
+        		<h3 class="pokemon-name">kakuna</h3>
+        <div>
+           			 <div class="pokemon-type fuego">fuego</div>
+        </div>
+            			 <div class="pokemon-type agua">agua</div>
+        </td>    
+<div class="card">
+        <td><img src="../img/jolteon.png" />
+       	 <div class="pokemon-description">
+       		 <h3 class="pokemon-name">jolteon</h3>
+        <div>
+            			 <div class="pokemon-type fuego">fuego</div>
+        </div>
+           			 <div class="pokemon-type agua">agua</div>
+        </td>    
+        
+    </tr>
+
+</table
+
+</body>
+</html>
